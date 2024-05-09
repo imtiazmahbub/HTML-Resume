@@ -1,0 +1,781 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent
+}
+
+body {
+    line-height: 1;
+    text-align: left;
+    font-feature-settings: "liga" 0;
+    -moz-font-feature-settings: "liga" off
+}
+
+.skn-mlf4 table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: inherit;
+    color: inherit;
+    width: 100%
+}
+
+/*START content disc style for LI*/
+.skn-mlf4 ul,
+.skn-mlf4 li {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.skn-mlf4 ul li {
+    position: relative;
+    margin: 0 0 0 0px;
+    padding-left: 10px
+}
+
+.skn-mlf4 ul li:before {
+    content: '\2022';
+    font-size: 10px;
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+/*END content disc style for LI*/
+
+/* li border */
+.skn-mlf4 .jobline {
+    display: block;
+    position: relative;
+    margin-left: 2px
+}
+
+.skn-mlf4 .jobline ul li:before,
+.skn-mlf4 .jobline p:before {
+    content: '\2022';
+    position: absolute;
+    left: -3px;
+    font-size: 10px;
+    z-index: 1;
+    display: block !important
+}
+
+.skn-mlf4 .experience ul {
+    position: relative
+}
+
+.skn-mlf4 .experience .jobline:before {
+    content: '';
+    height: calc(100% - 10px);
+    width: 5px;
+    border-left: 1px solid #2a2a2a;
+    position: absolute;
+    left: -1px;
+    top: 9px
+}
+
+.skn-mlf4 .experience ul li:last-child:after,
+.skn-mlf4 .jobline p:last-child:after {
+    border-left: 4px solid #fff;
+    bottom: 0;
+    position: absolute;
+    width: 4px;
+    left: -2px;
+    top: 11px;
+}
+
+.skn-mlf4 .experience ul li:last-child:after,
+.skn-mlf4 .jobline p:last-child:after {
+    content: ''
+}
+
+.skn-mlf4 .experience .jobline p {
+    padding-left: 10px;
+    position: relative
+}
+
+.skn-mlf4 .left-box .jobline {
+    margin-left: 15px
+}
+
+/*Helping classes*/
+.skn-mlf4 .txt-bold {
+    font-weight: bold
+}
+
+.skn-mlf4 .txtItl {
+    font-style: italic
+}
+
+.skn-mlf4 .dispBlock {
+    display: block
+}
+
+.skn-mlf4 .flt-right {
+    float: right
+}
+
+.skn-mlf4 .brkall {
+    word-break: break-all
+}
+
+/*Document*/
+.skn-mlf4 {
+    color: #020303;
+    line-height: 13px;
+    min-height: 792px;
+    word-wrap: break-word
+}
+
+.skn-mlf4 .name {
+    font-weight: bold;
+    padding: 0;
+    text-align: left
+}
+
+.skn-mlf4 .resumeTitle {
+    text-transform: uppercase;
+    letter-spacing: .42px
+}
+
+.skn-mlf4 .paragraph.firstparagraph {
+    margin-top: 0
+}
+
+/* common left-right container */
+.skn-mlf4 .section {
+    position: relative
+}
+
+.skn-mlf4 .section .heading {
+    border-top: 2px solid #0187de;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+.skn-mlf4 .sectiontitle {
+    text-transform: uppercase;
+    font-weight: bold
+}
+
+.skn-mlf4 .left-box,
+.skn-mlf4 .right-box {
+    box-sizing: border-box;
+    position: relative;
+    padding: 30px;
+    display: table-cell;
+    vertical-align: top;
+    padding-top: 25px
+}
+
+.skn-mlf4 .left-box {
+    padding-right: 0px
+}
+
+.skn-mlf4 .topbg {
+    position: absolute;
+    height: 385px;
+    width: 385px;
+    top: 0;
+    left: 0
+}
+
+.skn-mlf4 .topbg svg {
+    height: inherit;
+    width: inherit
+}
+
+.skn-mlf4 .topbg svg path {
+    fill: #0187de;
+    opacity: .17
+}
+
+.skn-mlf4 .right-box .skill {
+    display: table;
+    width: 100%;
+    table-layout: fixed
+}
+
+.skn-mlf4 .right-box .skill .paddedline {
+    display: table-cell;
+    width: 50%
+}
+
+.skn-mlf4 .right-box .skill .paddedline:last-child {
+    padding-left: 45px
+}
+
+/* Profile picture */
+.skn-mlf4 .right-box {
+    display: table-cell;
+    vertical-align: top
+}
+
+.skn-mlf4 .right-box .section:first-child {
+    padding-top: 0
+}
+
+.skn-mlf4 div.summary {
+    padding-top: 20px
+}
+
+.skn-mlf4 .left-box:empty,
+.skn-mlf4 .section:empty {
+    display: none
+}
+
+/* PICT */
+.skn-mlf4 .PICTPic {
+    padding-bottom: 40px
+}
+
+.skn-mlf4 .PICTPic>.field {
+    border: 1px solid transparent;
+    position: relative
+}
+
+.skn-mlf4 .PICTPic,
+.skn-mlf4 .PICTPic .field {
+    text-align: center;
+    box-sizing: content-box
+}
+
+.skn-mlf4 .PICTPic img {
+    object-fit: cover
+}
+
+
+/*parentContainer*/
+.skn-mlf4 .parentContainer {
+    display: table;
+    table-layout: fixed;
+    width: 100%
+}
+
+.skn-mlf4 .SECTION_CNTC {
+    padding-top: 0 !important
+}
+
+.skn-mlf4 .left-box .section:first-child,
+.skn-mlf4 .right-box .section:first-child {
+    padding-top: 0;
+    position: static
+}
+
+/* CNTC/ALNK */
+.skn-mlf4 .adnlLnks li:last-child {
+    padding-bottom: 0
+}
+
+/* vertical text */
+.skn-mlf4 .right-box .singlecolumn {
+    padding-left: 15px;
+    position: relative
+}
+
+.skn-mlf4 .exprdiv {
+    position: relative;
+    min-height: 99px
+}
+
+.skn-mlf4 .vertical-text {
+    position: absolute;
+    transform: rotate(-90deg);
+    left: -3px;
+    transform-origin: 42px 55px;
+    min-width: 93px;
+    text-align: right;
+    line-height: normal;
+    font-family: verdana;
+    font-size: 9px
+}
+
+.skn-mlf4 .left-box .vertical-text {
+    left: 11px
+}
+
+/* SVG Icon Style */
+.skn-mlf4 .iconRow {
+    word-wrap: break-word;
+    display: table;
+    margin-top: 10px;
+    width: 100%;
+    table-layout: fixed
+}
+
+.skn-mlf4 .icoTxt {
+    padding-left: 10px;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.skn-mlf4 .iconSvg {
+    width: 15px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.skn-mlf4 .iconSvg svg {
+    display: block;
+    overflow: visible !important
+}
+
+.skn-mlf4 .iconRow:first-child {
+    margin-top: 0px
+}
+
+.skn-mlf4 .brkall .iconRow:first-child {
+    margin-top: 10px
+}
+
+.skn-mlf4 .namesection+.summary .heading {
+    display: none
+}
+
+/*Signature*/
+.skn-mlf4 .sign .field_sign {
+    font-size: 7px;
+    color: #8a8a8a
+}
+
+.skn-mlf4 .txtleft+.field_sign {
+    text-align: left
+}
+
+.skn-mlf4 .txtcenter+.field_sign {
+    text-align: center
+}
+
+.skn-mlf4 .txtright+.field_sign {
+    text-align: right
+}
+
+.skn-mlf4 .signPic span:first-child {
+    padding-right: 6px
+}
+
+.skn-mlf4 .signPic img {
+    max-width: 100%
+}
+
+.skn-mlf4 .signContainer .section:last-child {
+    padding-top: 0
+}
+
+/*New logic for infographic*/
+.skn-mlf4 .lang-sec .singlecolumn,
+.skn-mlf4 .skli-sec .singlecolumn {
+    display: none
+}
+
+.skn-mlf4 .lang-sec.infobarsec .infobarpara,
+.skn-mlf4 .lang-sec.infotilesec .infotilepara,
+.skn-mlf4 .skli-sec.infobarsec .infobarpara,
+.skn-mlf4 .skli-sec.infotilesec .infotilepara {
+    display: block
+}
+
+/*Infographi Bar*/
+.skn-mlf4 .lang-sec.infobarsec,
+.skn-mlf4 .skli-sec.infobarsec {
+    font-size: 0
+}
+
+.skn-mlf4 .lang-sec.infobarsec .field *,
+.skn-mlf4 .skli-sec.infobarsec .field *,
+.skn-mlf4 .lang-sec.infobarsec .nativeLangPara .field {
+    display: inline
+}
+
+.skn-mlf4 .lang-sec.infobarsec .paragraph,
+.skn-mlf4 .skli-sec.infobarsec .paragraph {
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 5px;
+    margin-top: 0
+}
+
+.skn-mlf4 .lang-sec.infobarsec .paragraph .singlecolumn,
+.skn-mlf4 .skli-sec.infobarsec .singlecolumn {
+    margin-left: 0;
+    padding-left: 0;
+    position: relative
+}
+
+.skn-mlf4 .right-box .lang-sec.infobarsec .para_odd,
+.skn-mlf4 .right-box .skli-sec.infobarsec .para_odd {
+    margin-right: 15px
+}
+
+.skn-mlf4 .lang-sec.infobarsec>.paragraph:nth-last-child(1),
+.skn-mlf4 .right-box .lang-sec.infobarsec>.paragraph:nth-last-child(2),
+.skn-mlf4 .skli-sec.infobarsec>.paragraph:nth-last-child(1),
+.skn-mlf4 .right-box .skli-sec.infobarsec>.paragraph:nth-last-child(2) {
+    padding-bottom: 0 !important
+}
+
+.skn-mlf4 .lang-sec.infobarsec .paragraph.nativeLangPara {
+    width: 100%
+}
+
+.skn-mlf4 .right-box .lang-sec.infobarsec .inner-rating,
+.skn-mlf4 .right-box .skli-sec.infobarsec .inner-rating {
+    position: relative
+}
+
+.skn-mlf4 .lang-sec.infobarsec .rating-bar,
+.skn-mlf4 .skli-sec.infobarsec .rating-bar {
+    background: #d5d6d6;
+    width: 100%;
+    clear: both;
+    margin-top: 3px;
+    position: relative;
+    page-break-inside: avoid
+}
+
+.skn-mlf4 .lang-sec.infobarsec .inner-rating,
+.skn-mlf4 .skli-sec.infobarsec .inner-rating {
+    background-color: #b41c2e;
+    height: 4px;
+    position: relative;
+    width: 60%
+}
+
+.skn-mlf4 .left-box .lang-sec.infobarsec .paragraph,
+.skn-mlf4 .left-box .skli-sec.infobarsec .paragraph {
+    display: block;
+    margin-right: 0;
+    width: 100%;
+    max-width: 100%
+}
+
+.skn-mlf4 .left-box .skli-sec .paragraph:last-child .singlecolumn .field:last-child {
+    min-height: 0
+}
+
+.skn-mlf4 .right-box .skli-sec .paragraph:nth-last-child(1) .singlecolumn .field:last-child,
+.skn-mlf4 .right-box .skli-sec .paragraph:nth-last-child(2) .singlecolumn .field:last-child {
+    min-height: 0
+}
+
+/*Infographic Tiles*/
+.skn-mlf4 .lang-sec.infotilesec .paragraph,
+.skn-mlf4 .skli-sec .paragraph {
+    font-size: 0;
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 5px;
+    margin-top: 0
+}
+
+.skn-mlf4 .lang-sec.infotilesec>.paragraph:nth-last-child(1),
+.skn-mlf4 .right-box .lang-sec.infotilesec>.paragraph:nth-last-child(2),
+.skn-mlf4 .skli-sec>.paragraph:nth-last-child(1),
+.skn-mlf4 .right-box .skli-sec>.paragraph:nth-last-child(2) {
+    padding-bottom: 0 !important
+}
+
+.skn-mlf4 .lang-sec.infotilesec .field *,
+.skn-mlf4 .skli-sec .field *,
+.skn-mlf4 .lang-sec.infotilesec .nativeLangPara .field {
+    display: inline
+}
+
+.skn-mlf4 .lang-sec.infotilesec .paragraph .singlecolumn,
+.skn-mlf4 .skli-sec .singlecolumn {
+    margin-left: 0;
+    padding-left: 0
+}
+
+.skn-mlf4 .lang-sec.infotilesec .sliced-rect,
+.skn-mlf4 .skli-sec .sliced-rect {
+    height: 6px;
+    width: 100%;
+    line-height: 0px;
+    margin-top: 3px;
+    clear: both
+}
+
+.skn-mlf4 .right-box .lang-sec.infotilesec .paragraph.para_odd,
+.skn-mlf4 .right-box .skli-sec .paragraph.para_odd {
+    margin-right: 15px
+}
+
+.skn-mlf4 .left-box .lang-sec .paragraph,
+.skn-mlf4 .left-box .skli-sec .paragraph {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 0
+}
+
+.skn-mlf4 .lang-sec.infotilesec .sliced-rect .sliced-rect-tile,
+.skn-mlf4 .skli-sec .sliced-rect .sliced-rect-tile {
+    height: 100%;
+    background-color: #d5d6d6;
+    float: left;
+    margin-right: 3px
+}
+
+.skn-mlf4 .lang-sec.infotilesec .sliced-rect .sliced-rect-tile:last-child,
+.skn-mlf4 .skli-sec .sliced-rect .sliced-rect-tile:last-child {
+    margin-right: 0
+}
+
+.skn-mlf4 .right-box .lang-sec .paragraph,
+.skn-mlf4 .right-box .skli-sec .paragraph {
+    padding-bottom: 5px
+}
+
+.skn-mlf4 .right-box .lang-sec .paragraph:nth-last-child(1),
+.skn-mlf4 .right-box .lang-sec .paragraph:nth-last-child(2),
+.skn-mlf4 .right-box .skli-sec .paragraph:nth-last-child(1),
+.skn-mlf4 .right-box .skli-sec .paragraph:nth-last-child(2) {
+    padding-bottom: 0
+}
+
+
+/*Rectangular Rating Blocks*/
+.skn-mlf4 .sliced-rect .sliced-rect-tile.ratvfill {
+    background-color: #b41c2e
+}
+
+.skn-mlf4 .hide-bar .paragraph .rating-bar,
+.skn-mlf4 .hide-bar .paragraph .sliced-rect,
+.skn-mlf4 .hide-only-bar .rating-bar,
+.skn-mlf4 .hide-colon .paragraph .colon {
+    display: none
+}
+
+.skn-mlf4 .right-box .lang-sec.infotilesec .paragraph.firstparagraph,
+.skn-mlf4 .right-box .lang-sec.infotilesec .paragraph.firstparagraph+.paragraph,
+.skn-mlf4 .right-box .skli-sec .paragraph.firstparagraph,
+.skn-mlf4 .right-box .skli-sec .paragraph.firstparagraph+.paragraph {
+    margin-top: 0 !important
+}
+
+.skn-mlf4 .left-box .lang-sec.infobarsec .paragraph,
+.skn-mlf4 .left-box .skli-sec.infobarsec .paragraph {
+    max-width: 100%;
+    margin-top: 0
+}
+
+/*MFR address order code*/
+.skn-mlf4 .zipsuffix,
+.skn-mlf4.LDE .zipprefix {
+    display: block
+}
+
+.skn-mlf4 .zipprefix,
+.skn-mlf4.MFR .zipsuffix,
+.skn-mlf4.MES .zipsuffix,
+.skn-mlf4.LDE .zipsuffix {
+    display: none
+}
+
+.skn-mlf4.MFR .zipprefix,
+.skn-mlf4.MES .zipprefix {
+    display: block
+}
+
+/* PPDT */
+.skn-mlf4 .signContainerParent .paragraph {
+    padding: 0 30px 20px 30px;
+    border: none
+}
+
+.skn-mlf4 .section.disclaim {
+    background: white
+}
+
+.skn-mlf4 .disclaim .field.singlecolumn {
+    margin-left: 0
+}
+
+.skn-mlf4 .disclaim .field.singlecolumn,
+.skn-mlf4 .disclaim .field.singlecolumn li,
+.skn-mlf4 .disclaim .field.singlecolumn p,
+.skn-mlf4 .disclaim .field.singlecolumn span {
+    font-size: 9px;
+    color: #8a8a8a
+}
+
+/*Social Icons*/
+.skn-mlf4 .social svg .svg-inricon {
+    fill: #fff
+}
+
+.skn-mlf4 .social svg .svg-circlebg,
+.skn-mlf4 .social svg .svg-fillcirclebg {
+    fill: #000
+}
+
+/* GRYR */
+.skn-mlf4 .displayNoneThisField {
+    display: none
+}
+
+/* Keep this class always at bottom */
+
+/*For Extra Space Before Colon*/
+.skn-mlf4 .beforecolonspace {
+    display: none !important
+}
+
+.skn-mlf4.MFR .beforecolonspace {
+    display: inline !important
+}
+
+/*HILT multi para/section*/
+.skn-mlf4 .multi-section-hilt .multi-para-opt,
+.skn-mlf4 .section:not(.multi-para-hilt):not(.multi-section-hilt) .multi-para-opt,
+.skn-mlf4 .multi-para-hilt .dflt-view {
+    display: none
+}
+
+.skn-mlf4 .multi-para-hilt:after {
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0
+}
+
+/*Clearfix*/
+.skn-mlf4 .right-box .multi-para-hilt .paragraph {
+    display: block;
+    float: left;
+    clear: none;
+    margin-top: 0px;
+    margin-right: 2%
+}
+
+.skn-mlf4 .right-box .multi-para-hilt .singlecolumn {
+    padding-left: 0
+}
+
+.skn-mlf4 .right-box .multi-para-hilt .paragraph:nth-child(2n) {
+    clear: left
+}
+
+.skn-mlf4 .right-box .multi-para-hilt .paragraph:nth-child(2n+1) {
+    margin-right: 0;
+    float: left
+}
+
+.skn-mlf4 .right-box .multi-para-hilt .paragraph:last-child,
+.skn-mlf4 .right-box .multi-para-hilt .paragraph:nth-last-child(2):nth-child(2n) {
+    margin-bottom: 0
+}
+
+.skn-mlf4 .right-box .multi-para-hilt .singlecolumn {
+    margin-left: 0 !important
+}
+
+.skn-mlf4 .right-box .multi-para-hilt .paragraph {
+    margin-bottom: 12px
+}
+
+.skn-mlf4 .left-box .multi-para-hilt .paragraph.firstparagraph,
+.skn-mlf4 .right-box .multi-para-hilt .paragraph.firstparagraph {
+    margin-top: 0
+}
+
+.skn-mlf4 .right-box .multi-para-hilt .paragraph:nth-child(2n+1) .singlecolumn {
+    padding-left: 0
+}
+
+/* Text Align Adjust */
+
+.skn-mlf4 .ttc-align-left ul {
+    text-align: left
+}
+
+.skn-mlf4 .ttc-align-right ul {
+    text-align: right
+}
+
+.skn-mlf4 .ttc-align-center ul {
+    text-align: center
+}
+
+.skn-mlf4 .ttc-align-justify ul {
+    text-align: justify
+}
+
+.skn-mlf4 .ttc-align-right li:before,
+.skn-mlf4 .ttc-align-center li:before {
+    position: relative;
+    left: -4.5px
+}
+
+/*PICT support*/
+.skn-mlf4.pict-pcpf-none .PICTPic {
+    display: none
+}
+
+/* .skn-mlf4.pict-pcpf-none .left-box{padding-top:82px} */

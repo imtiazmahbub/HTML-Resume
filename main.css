@@ -1,0 +1,371 @@
+.skn-mlf4,
+    .skn-mlf4 table {
+        line-height: 17px
+    }
+
+    .skn-mlf4.pagesize {
+        width: 749px
+    }
+
+    .skn-mlf4.fontsize,
+    .skn-mlf4 .lang-sec.infobarsec .paragraph *,
+    .skn-mlf4 .lang-sec.infotilesec .paragraph *,
+    .skn-mlf4 .skli-sec .paragraph * {
+        font-size: 13px
+    }
+
+    .skn-mlf4.fontface {
+        font-family: Verdana
+    }
+
+    .skn-mlf4 .section {
+        padding-top: 25px
+    }
+
+    .skn-mlf4 .paragraph {
+        margin-top: 15px
+    }
+
+    .skn-mlf4 .parentContainer .singlecolumn,
+    .skn-mlf4 .parentContainer .maincolumn {
+        margin-left: 0px
+    }
+
+    .skn-mlf4 .left-box .paragraph .singlecolumn,
+    .skn-mlf4 .right-box .skli-sec .singlecolumn,
+    .skn-mlf4 .left-box .refer-sec .paragraph.singlecolumn {
+        margin-left: 0
+    }
+
+    .skn-mlf4 .name {
+        font-size: 35px;
+        line-height: 42px
+    }
+
+    .skn-mlf4 .sectiontitle {
+        font-size: 14px;
+        line-height: 16px
+    }
+
+    .skn-mlf4 .left-box .multi-para-hilt .paragraph {
+        margin-top: 15px
+    }
+
+    .skn-mlf4 .parentcontainer .left-box {
+        width: {
+            $RBOX
+        }
+
+        px
+    }
+
+    .skn-mlf4 .vertical-text {
+        top: 0px
+    }
+
+    .skn-mlf4 .exprdiv {
+        min-height: 112px
+    }
+
+    .skn-mlf4 .jobline ul li:last-child:after,
+    .skn-mlf4 .jobline p:last-child:after {
+        height: 100%
+    }
+
+    .skn-mlf4 .experience ul:before {
+        top: 10px
+    }
+
+    .skn-mlf4 .experience ul li:last-child:after,
+    .skn-mlf4 .jobline p:last-child:after {
+        top: 10px !important
+    }
+
+    .skn-mlf4 .PICTPic,
+    .skn-mlf4 .PICTPic .field {
+        width: 151px;
+        height: 151px
+    }
+
+    .skn-mlf4 .skli-sec .singlecolumn .field:last-child {
+        min-height: 17px
+    }
+
+    .skn-mlf4 .PICTPic img {
+        width: 117px;
+        min-width: 117px;
+        max-width: 117px;
+        height: 151px;
+        max-height: 151px;
+        min-height: 151px
+    }
+
+    /* icons */
+    .skn-mlf4 .left-box {
+        width: 220px
+    }
+
+    .skn-mlf4 .iconSvg svg {
+        height: 18px;
+        width: 18px
+    }
+
+    .skn-mlf4 .iconSvg {
+        width: 18px
+    }
+
+    /*SDCL*/
+    .skn-mlf4 .PICTPic .field:empty {
+        opacity: 0
+    }
+
+    .skn-mlf4 .topbg svg path {
+        fill: #0187de
+    }
+
+    .skn-mlf4 .section .heading {
+        border-color: #0187de
+    }
+
+    /*Infographic Bar*/
+    .skn-mlf4 .right-box .lang-sec.infobarsec .paragraph,
+    .skn-mlf4 .right-box .skli-sec.infobarsec .paragraph {
+        width: 204px
+    }
+
+    .skn-mlf4 .right-box .lang-sec.infobarsec,
+    .skn-mlf4 .right-box .skli-sec.infobarsec,
+    .skn-mlf4 .right-box .multi-para-hilt {
+        margin-left: 18px
+    }
+
+    .skn-mlf4 .right-box .lang-sec.infobarsec .heading,
+    .skn-mlf4 .right-box .skli-sec.infobarsec .heading,
+    .skn-mlf4 .right-box .multi-para-hilt .heading {
+        margin-left: -18px
+    }
+
+    .skn-mlf4 .lang-sec.infobarsec .inner-rating,
+    .skn-mlf4 .skli-sec.infobarsec .inner-rating {
+        background-color: #0187de
+    }
+
+    .skn-mlf4 .left-box .lang-sec.infobarsec .paragraph,
+    .skn-mlf4 .left-box .skli-sec.infobarsec .paragraph {
+        padding-bottom: 6px
+    }
+
+    .skn-mlf4 .lang-sec.infobarsec .nativeLangPara {
+        width: 432px;
+        max-width: 432px
+    }
+
+    /*Infographic Tiles*/
+    .skn-mlf4 .right-box .lang-sec.infotilesec,
+    .skn-mlf4 .right-box .skli-sec {
+        margin-left: 18px
+    }
+
+    .skn-mlf4 .right-box .lang-sec.infotilesec .heading,
+    .skn-mlf4 .right-box .skli-sec .heading {
+        margin-left: -18px
+    }
+
+    .skn-mlf4 .right-box .lang-sec.infotilesec .paragraph,
+    .skn-mlf4 .right-box .skli-sec .paragraph {
+        width: 204px
+    }
+
+    .skn-mlf4 .left-box .lang-sec .paragraph,
+    .skn-mlf4 .left-box .skli-sec .paragraph {
+        padding-bottom: 6px
+    }
+
+    .skn-mlf4 .right-box .lang-sec.infotilesec .nativeLangPara {
+        width: 432px !important;
+        max-width: 432px
+    }
+
+    /*Rectangular Rating Blocks*/
+    .skn-mlf4 .paragraph .sliced-rect .sliced-rect-tile.ratvfill {
+        background-color: #0187de
+    }
+
+    /* fixes for builder */
+    .skn-mlf4 .left-box>.SortableItem:first-child .section,
+    .skn-mlf4 .right-box .SortableItem:first-child .section,
+    .skn-mlf4 .left-box>.sortable-item:first-child .section,
+    .skn-mlf4 .right-box .sortable-item:first-child .section {
+        padding-top: 0;
+        position: static
+    }
+
+    .skn-mlf4 .SortableItem .topbg,
+    .skn-mlf4 .sortable-item .topbg {
+        left: -31px;
+        top: -25px
+    }
+
+    .skn-mlf4 .SortableItem:first-child+.SortableItem .sortableInner>.SortableItem:first-child .jobline:after,
+    .skn-mlf4 .SortableItem:first-child+.SortableItem.active .sortableInner>.SortableItem:first-child .jobline:after,
+    .skn-mlf4 .SortableItem:first-child+.SortableItem .sortableInner>.SortableItem.active:first-child .jobline:after,
+    .skn-mlf4 .sortable-item:first-child+.sortable-item.active .sortableInner>.sortable-item:first-child .jobline:after,
+    .skn-mlf4 .right-box .SortableItem:first-child+.SortableItem .summary .heading,
+    .skn-mlf4 .right-box .sortable-item:first-child+.sortable-item .summary .heading {
+        display: none
+    }
+
+    .skn-mlf4 .left-box .SortableItem .section,
+    .skn-mlf4 .right-box .SortableItem .section,
+    .skn-mlf4 .left-box .sortable-item .section,
+    .skn-mlf4 .right-box .sortable-item .section {
+        padding-top: 25px
+    }
+
+    .skn-mlf4 .SortableItem .PICTPic,
+    .skn-mlf4 .SortableItem .PICTPic .field {
+        z-index: 8
+    }
+
+    .skn-mlf4 .sortable-item .PICTPic,
+    .skn-mlf4 .sortable-item .PICTPic .field {
+        z-index: 9
+    }
+
+    .skn-mlf4 .left-box>.SortableItem:first-child .wrapper,
+    .skn-mlf4 .left-box>.sortable-item:first-child .doc-item {
+        z-index: auto
+    }
+
+    .skn-mlf4 .data-EXPR .jobline ul li:last-child:after {
+        top: {
+            $LBBH
+        }
+
+        px
+    }
+
+    .skn-mlf4 .right-box .lang-sec .paragraph+.paragraph {
+        max-width: 204px
+    }
+
+    .skn-mlf4 .right-box .active .lang-sec .text-rename,
+    .skn-mlf4 .right-box .active .skli-sec .text-rename {
+        margin-left: -18px
+    }
+
+    .skn-mlf4 .right-box .sortable-item .lang-sec,
+    .skn-mlf4 .right-box .sortable-item .skli-sec {
+        margin-left: 0;
+        padding-left: 18px
+    }
+
+    .skn-mlf4 .right-box .lang-sec .sortable-item,
+    .skn-mlf4 .right-box .skli-sec .sortable-item {
+        display: inline-block;
+        vertical-align: top
+    }
+
+    .skn-mlf4 .right-box .lang-sec .sortable-item .nativeLangPara .singlecolumn {
+        width: 432px !important;
+        max-width: 432px !important
+    }
+    }
+
+    .skn-mlf4 .sortable-item i.far.fa-check {
+        font-family: "Font Awesome 5 Pro"
+    }
+
+    .skn-mlf4 .skli-sec.SECTION_SKLI .paragraph * {
+        color: #020303
+    }
+
+    .skn-mlf4 .right-box .skli-sec.SECTION_SKLI .sortable-item {
+        display: inline-block;
+        vertical-align: top
+    }
+
+    .skn-mlf4 .right-box .lang-sec .sortableInner .sortable-item,
+    .skn-mlf4 .right-box .skli-sec .sortableInner .sortable-item {
+        padding-bottom: 5px
+    }
+
+    .skn-mlf4 .right-box .lang-sec .sortableInner .sortable-item:nth-last-child(1),
+    .skn-mlf4 .right-box .lang-sec .sortableInner .sortable-item:nth-last-child(2),
+    .skn-mlf4 .right-box .skli-sec .sortableInner .sortable-item:nth-last-child(1),
+    .skn-mlf4 .right-box .skli-sec .sortableInner .sortable-item:nth-last-child(2) {
+        padding-bottom: 0
+    }
+
+    .resume-preview .skn-mlf4 .right-box .lang-sec .para_odd,
+    .resume-preview .skn-mlf4 .right-box .skli-sec .para_odd,
+    .resume-preview .skn-mlf4 .right-box .lang-sec .para_even,
+    .resume-preview .skn-mlf4 .right-box .skli-sec .para_even {
+        width: 189px;
+        max-width: 189px
+    }
+
+    /* Fix for Lde */
+    .resume-preview .skn-mlf4.LDE .right-box .lang-sec .sortable-item .para_odd,
+    .resume-preview .skn-mlf4.LDE .right-box .skli-sec .sortable-item .para_odd,
+    .resume-preview .skn-mlf4.LDE .right-box .lang-sec .sortable-item .para_even,
+    .resume-preview .skn-mlf4.LDE .right-box .skli-sec .sortable-item .para_even {
+        width: 189px;
+        max-width: 189px
+    }
+
+    .skn-mlf4.LDE .right-box .lang-sec .sortable-item .paragraph,
+    .skn-mlf4.LDE .right-box .skli-sec .sortable-item .paragraph {
+        width: 217px;
+        max-width: 217px
+    }
+
+    .skn-mlf4.LDE .right-box .lang-sec .sortable-item .paragraph.nativeLangPara {
+        max-width: 100%
+    }
+
+    /* IE support  */
+    @media all and (-ms-high-contrast: none),
+    (-ms-high-contrast: active) {
+        .skn-mlf4 .iconSvg svg {
+            width: 19px;
+        }
+    }
+
+    /*PPDT*/
+    .skn-mlf4 .disclaim.section {
+        padding-top: 63px
+    }
+
+    /*Multi-para HILT*/
+    .skn-mlf4 .right-box .multi-para-hilt .paragraph {
+        width: 49%;
+        max-width: 49%
+    }
+
+    /*Fixes for builder for skill*/
+    .skn-mlf4 .skli-sec .sortable-item .paragraph:last-child .singlecolumn .field:last-child {
+        min-height: 17px
+    }
+
+    .skn-mlf4 .left-box .skli-sec .sortable-item:last-child .paragraph .singlecolumn .field:last-child,
+    .skn-mlf4 .right-box .skli-sec .sortable-item:nth-last-child(1) .paragraph .singlecolumn .field:last-child,
+    .skn-mlf4 .right-box .skli-sec .sortable-item:nth-last-child(2) .paragraph .singlecolumn .field:last-child {
+        min-height: 0
+    }
+
+    .skn-mlf4 .left-box .lang-sec .sortableInner>.sortable-item:nth-last-child(1) .paragraph,
+    .skn-mlf4 .left-box .skli-sec .sortableInner>.sortable-item:nth-last-child(1) .paragraph {
+        padding-bottom: 0
+    }
+
+    .skn-mlf4 .right-box .lang-sec .sortableInner>.sortable-item:nth-last-child(1) .paragraph,
+    .skn-mlf4 .right-box .lang-sec .sortableInner>.sortable-item:nth-last-child(2) .paragraph,
+    .skn-mlf4 .right-box .skli-sec .sortableInner>.sortable-item:nth-last-child(1) .paragraph,
+    .skn-mlf4 .right-box .skli-sec .sortableInner>.sortable-item:nth-last-child(2) .paragraph {
+        padding-bottom: 0 !important
+    }
+
+    .skn-mlf4.pict-pcpf-none .SECTION_CNTC {
+        margin-top: 75px
+    }
