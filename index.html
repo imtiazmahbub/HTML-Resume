@@ -11,7 +11,7 @@
 		<div>
 			<div class="js-document-wrap" tabindex="">
 				<div class="document doc-root fontsize fontface vmargins hmargins pagesize skn-mlf4 MLF4 LUK pict-pcpf-purl"
-					docskinwidth="749" style="/* max-width: 749.7px; */min-height: 792px;">
+					docskinwidth="749" style="/* max-width: 749.7px; */min-height: 792px; margin-left: auto; margin-right: auto;">
 					<div id="CONTAINER_PARENT_0" class="parentContainer">
 						<div id="CONTAINER_0" class="left-box">
 							<div data-react-beautiful-dnd-draggable="17"
@@ -533,7 +533,7 @@
 							<div data-react-beautiful-dnd-draggable="17"
 								class="sortable-item section-container SortableItem-sibling data-SUMM">
 								<div id="SECTION_SUMM871a0244-e333-47cb-8e7d-f5d6a75ce2dd"
-									class="section summary SECTION_SUMM    has-title  " data-section-cd="SUMM">
+									class="summary" data-section-cd="SUMM">
 									<div class=" doc-item">
 										<div class="heading">
 											<div class="sectiontitle" id="SECTIONNAME_SUMM">Summary<span title=" Summary "
@@ -544,7 +544,7 @@
 												<div id="PARAGRAPH_SUMM_8894eaab-01a7-5c4e-c4e0-a2342ba87f57"
 													class="paragraph PARAGRAPH_SUMM firstparagraph  ">
 													<div class="clearfix doc-item">
-														<div class="singlecolumn" id="FIELD_FRFM">
+														<div class="">
 															<p>Full-stack developer | Laravel, Yii2, PHP | Built
 																custom software &amp; user-friendly websites | Led IT teams
 																&amp; managed projects (requirements to deployment) | Strong
@@ -760,18 +760,62 @@
 													class="paragraph PARAGRAPH_PROJ firstparagraph  ">
 													<div class="clearfix doc-item">
 														<div class="singlecolumn" id="FIELD_FRFM">
-															<ul>
-																<li>Fusion CRM (Battery production, distribution and dealer
-																	management, sales, accounting, warranty management and
-																	service, field workers attendance)
+															<ul class="ul-relaxed">
+																<li class="experience">
+																	<h4>Fusion CRM</h4>
+																	<h5>Features (CRM for Battery Mfg. & Dist. Business)</h5>
+																	<span class="jobline">
+																		<ul>
+																			<li>Production</li>
+																			<li>Distribution & Dealer Management</li>
+																			<li>Sales Orders, Invoices, Payments, Accounting</li>
+																			<li>QuickBooks Integration</li>
+																			<li>Warranty Management & Service Module</li>
+																			<li>Field Workers Attendance with GPS</li>
+																		</ul>
+																	</span>
 																</li>
-																<li>EzJobs BD (Job portal, CV builder, Applicant Tracking
-																	System, Employer reporting)
+																<li class="experience">
+																	<h4>EzJobs BD <small><i><a class="text-small" href="https://ezjobsbd.com">ezjobsbd.com</a></i></small></h4>
+																	<h5>Features</h5>
+																	<span class="jobline">
+																		<ul>
+																			<li>Job Portal</li>
+																			<li>CV Builder</li>
+																			<li>ATS: Applicant Tracking System</li>
+																			<li>Employer Portal</li>
+																		</ul>
+																	</span>
 																</li>
-																<li>Fiction Factory (Online marketplace for literature,
+																<li class="experience">
+																	<h4>Fiction Factory <small><i><a href="https://fictionfactory.org">fictionfactory.org</a></small></i></h4>
+																	(Online marketplace for literature,
 																	write and sell articles)
+																	
+																	<h5>Features</h5>
+																	<span class="jobline">
+																		<ul>
+																			<li>Gamification</li>
+																			<li>Cart, Checkout, Payouts </li>
+																		</ul>
+																	</span>
 																</li>
-																<li>Cinebaz Limited (OTT Platform)</li>
+																<li class="experience">
+																	<h4>Family Market <small><i><a href="https://familymarket.com.bd">familymarket.com.bd</a></small></i></h4>
+																	(Inventory, POS and Accounting System)
+																	
+																	<h5>Features</h5>
+																	<span class="jobline">
+																		<ul>
+																			<li>Inventory & POS</li>
+																			<li>Full-fledged Accounting System</li>
+																		</ul>
+																	</span>
+																</li>
+																<li>
+																	<h4>Cinebaz Limited</h4>
+																	(OTT Platform)
+																</li>
 															</ul>
 														</div>
 													</div>
@@ -870,11 +914,18 @@
 		</div>
 		<style>
 			@media print {
-			.pagebreak {
-			clear: both;
-			page-break-after: always;
+				.pagebreak {
+					clear: both;
+					page-break-after: always;
+				}
 			}
+			ul.feature-list {
+				border-left: 1px solid #8080802e;
+				padding-left: 5px;
+				margin-left: 5px;
 			}
+			h5 {opacity: 0.75;}
+			ul.ul-relaxed>li {margin-top: 1em;}
 		</style>
 	</body>
 </html>
